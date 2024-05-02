@@ -1,8 +1,6 @@
-export default function BlueCanyon(){
+import { useParams } from "react-router-dom";
 
-    return(
-        <>
-
-        </>
-    );
+export default function BlueCanyon() {
+  const { hero } = useParams("darkForest");
+  return <></>;
 }

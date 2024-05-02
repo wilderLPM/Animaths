@@ -1,8 +1,6 @@
-export default function DarkForest(){
+import { useParams } from "react-router-dom";
 
-    return(
-        <>
-
-        </>
-    );
+export default function DarkForest() {
+  const { hero } = useParams("darkForest");
+  return <></>;
 }

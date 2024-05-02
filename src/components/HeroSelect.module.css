@@ -1,0 +1,28 @@
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  padding: 1vh 1vw;
+  gap: 1.5vh;
+  border-radius: 15px;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+  width: -webkit-fill-available;
+}
+
+ul {
+  padding-inline-start: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+blockquote {
+  margin: 0% 5%;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  padding: 2vh;
+}
+.heroes {
+  display: flex;
+  justify-content: space-around;
+}
+.start {
+  text-align: center;
+}
+#Rebecca {
+  border: solid violet !important;
+}
+
+#Travis {
+  border: solid blue !important;
+  border-width: 20px;
+}
