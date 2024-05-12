@@ -2,7 +2,7 @@ import styles from "./HeroSelect.module.css";
 
 export default function HeroSelect({ hero, setChosenHero }) {
   function handleClick() {
-    setChosenHero(hero.name);
+    setChosenHero(hero);
   }
   return (
     <div

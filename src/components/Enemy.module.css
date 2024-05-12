@@ -1,0 +1,15 @@
+.enemyBanner {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.enemyInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.enemyBanner > img {
+  width: 25vw;
+}
